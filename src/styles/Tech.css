@@ -1,6 +1,6 @@
 .Tech {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -16,4 +16,28 @@
     align-content: flex-start;
     justify-content: center;
     width: 50%;
+}
+
+@media (max-width: 1000px){
+    .Home h1 {
+        font-size: 9vw;
+    }
+
+    .Tech {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .Text {
+        align-content: center;
+        width: unset;
+    }
+
+    .Text h1 {
+        font-size: 40px;
+    }
+
+    .Header p {
+        font-size: 10px;
+    }
 }

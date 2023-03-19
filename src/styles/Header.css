@@ -1,5 +1,6 @@
 .Header {
-    min-height:50px; 
+    min-height:50px;
+    max-height:50px; 
     position: fixed;
     width: 100%;
     z-index: 1;

@@ -14,3 +14,19 @@
 .Lists h2 {
     font-size: 30px;
 }
+
+@media (max-width: 1000px){
+    .Lists {
+        width: unset;
+        text-align: center;
+        align-content: center;
+    }
+
+    .Lists h2 {
+        font-size: 25;
+    }
+
+    .Lists p {
+        font-size: unset;
+    }
+}
