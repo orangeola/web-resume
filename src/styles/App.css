@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'tex_gyre_herosbold';
+    src: url('./fonts/texgyreheros-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tex_gyre_herosregular';
+    src: url('./fonts/texgyreheros-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'tex_gyre_herosbold';
+}
+
+html, body {
+    min-height: 100vh; 
+    margin:0;
+    background-color: black;
+    color: white;
+}
+
+.App {
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh; margin:0;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

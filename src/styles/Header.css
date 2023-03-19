@@ -1,0 +1,15 @@
+.Header {
+    min-height:50px; 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    color: white;
+}
+
+.Header > p {
+    font-family: 'tex_gyre_herosregular';
+    color: white;
+}

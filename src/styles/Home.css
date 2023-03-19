@@ -1,0 +1,11 @@
+.Home {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.Home > h1 {
+    font-size: 120px;
+}
