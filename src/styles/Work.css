@@ -1,0 +1,10 @@
+.Work {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.workText > h1 {
+    font-size: 70px;
+}

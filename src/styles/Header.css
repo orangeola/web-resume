@@ -1,6 +1,4 @@
 .Header {
-    min-height:50px;
-    max-height:50px; 
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -14,4 +12,11 @@
 .Header > p {
     font-family: 'tex_gyre_herosregular';
     color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px){
+    .Header p {
+        font-size: 10px;
+    }
 }

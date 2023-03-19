@@ -2,13 +2,13 @@ import '../styles/Lists.css'
 
 function Lists() {
   const frontend = ['html', 'css', 'javascript', 'pug', 'react', 'webpack'];
-  const frontendLoop = frontend.map((tech) => <p>{tech}</p>);
+  const frontendLoop = frontend.map((tech) => <p key={tech}>{tech}</p>);
 
   const backend = ['nodejs', 'express', 'passport', 'firebase', 'bcrypt', 'mongoose', 'mongodb'];
-  const backendLoop = backend.map((tech) => <p>{tech}</p>);
+  const backendLoop = backend.map((tech) => <p key={tech}>{tech}</p>);
 
   const misc = ['npm', 'jest', 'git', 'sourcetree', 'github', 'bitbucket', 'c#', 'c++', 'python', 'unity', ];
-  const miscLoop = misc.map((tech) => <p>{tech}</p>);
+  const miscLoop = misc.map((tech) => <p key={tech}>{tech}</p>);
 
   return (
     <div className="Lists">

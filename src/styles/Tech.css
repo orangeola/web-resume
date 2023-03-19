@@ -19,10 +19,6 @@
 }
 
 @media (max-width: 1000px){
-    .Home h1 {
-        font-size: 9vw;
-    }
-
     .Tech {
         justify-content: center;
         flex-direction: column-reverse;
@@ -35,9 +31,5 @@
 
     .Text h1 {
         font-size: 40px;
-    }
-
-    .Header p {
-        font-size: 10px;
     }
 }
