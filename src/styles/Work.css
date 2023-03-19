@@ -3,8 +3,11 @@
     min-height: 100vh;
     flex-wrap: wrap;
     flex-direction: row;
+    align-content: flex-end;
 }
 
 .workText > h1 {
+    padding-top: 40px;
+    padding-left: 40px;
     font-size: 70px;
 }
