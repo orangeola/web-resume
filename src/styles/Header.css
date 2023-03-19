@@ -5,8 +5,10 @@
     z-index: 1;
     display: flex;
     top: 0;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
     color: white;
+    padding-right: 10px;
 }
 
 .Header > p {
