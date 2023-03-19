@@ -6,8 +6,7 @@ function Tech() {
     <div className="Tech">
       <Lists />
       <div className="Text">
-        <h1>is <span style={{color:'red'}}>experienced</span> in</h1>
-        <h1>these technologies</h1>
+        <h1>is <span style={{color:'red'}}>experienced</span> in these technologies</h1>
       </div>
     </div>
   );

@@ -1,0 +1,16 @@
+.Lists {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.Lists p {
+    font-size: 20px;
+}
+
+.Lists h2 {
+    font-size: 30px;
+}

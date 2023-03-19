@@ -7,25 +7,13 @@
 
 .Text > h1 {
     font-size: 70px;
-    padding-right: 100px;
-    margin: 20px;
 }
 
 .Text {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: flex-end;
+    align-content: flex-start;
     justify-content: center;
     width: 50%;
 }
-
-.Lists {
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-evenly;
-}
-

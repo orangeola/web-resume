@@ -1,34 +1,28 @@
+import '../styles/Lists.css'
+
 function Lists() {
+  const frontend = ['html', 'css', 'javascript', 'pug', 'react', 'webpack'];
+  const frontendLoop = frontend.map((tech) => <p>{tech}</p>);
+
+  const backend = ['nodejs', 'express', 'passport', 'firebase', 'bcrypt', 'mongoose', 'mongodb'];
+  const backendLoop = backend.map((tech) => <p>{tech}</p>);
+
+  const misc = ['npm', 'jest', 'git', 'sourcetree', 'github', 'bitbucket', 'c#', 'c++', 'python', 'unity', ];
+  const miscLoop = misc.map((tech) => <p>{tech}</p>);
+
   return (
     <div className="Lists">
-      <div>
+      <div className="frontend">
         <h2>frontend</h2>
-        <p>html</p>
-        <p>css</p>
-        <p>javascript</p>
-        <p>pug</p>
-        <p>react</p>
-        <p>webpack</p>
+        {frontendLoop}
       </div>
-      <div>
-        <h2>backend</h2>
-        <p>nodejs</p>
-        <p>express</p>
-        <p>passport</p>
-        <p>firebase</p>
-        <p>bcrypt</p>
-        <p>mongoose</p>
-        <p>mongodb</p>
-        <p>jest</p>
-        <p>git</p>
-        <p>npm</p>
-      </div>
-      <div>
+      <div className="misc">
         <h2>misc</h2>
-        <p>c#</p>
-        <p>c++</p>
-        <p>python</p>
-        <p>unity</p>
+        {miscLoop}
+      </div>
+      <div className="backend">
+        <h2>backend</h2>
+        {backendLoop}
       </div>
     </div>
   );
