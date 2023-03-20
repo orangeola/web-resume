@@ -1,0 +1,52 @@
+:root {
+    --workSectionWidth: 600px;
+    --workSectionHeight: 289px;
+}
+
+.workSection {
+    max-width: var(--workSectionWidth);
+}
+
+.demoPicture {
+    width: var(--workSectionWidth);
+    height: var(--workSectionHeight);
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.workSection > h2 {
+    font-family: 'tex_gyre_herosbold';
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.workSection > p {
+    font-size: 20px;
+    font-family: 'tex_gyre_herosregular';
+}
+
+.workTitle > h2 {
+    font-family: 'tex_gyre_herosbold';
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.workTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1000px){
+    :root {
+        --workSectionWidth: 300px;
+        --workSectionHeight: 144px;
+    }
+}

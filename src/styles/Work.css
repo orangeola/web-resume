@@ -2,12 +2,27 @@
     display: flex;
     min-height: 100vh;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 100px;
 }
 
+.workText{
+    display: flex;
+}
 .workText > h1 {
-    padding-top: 40px;
-    padding-left: 40px;
     font-size: 70px;
+}
+
+
+@media (min-width: 1000px){
+    .workText > h1 {
+        padding-top: 40px;
+        padding-left: 200px;
+    }
+}
+
+@media (max-width: 1000px){
+    .workText > h1 {
+        font-size: 40px;
+    }
 }

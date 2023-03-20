@@ -1,0 +1,25 @@
+.WorkTab > h2 {
+    font-family: 'tex_gyre_herosbold';
+    margin: 0;
+    padding: 0;
+}
+
+.WorkTab{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 433px;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+@media (max-width: 1000px){
+    .WorkTab{
+        padding-left: unset;
+    }
+
+    .workText{
+        justify-content: center;
+    }
+}

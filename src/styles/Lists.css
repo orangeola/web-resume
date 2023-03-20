@@ -8,10 +8,12 @@
 }
 
 .Lists p {
+    font-family: 'tex_gyre_herosregular';
     font-size: 20px;
 }
 
 .Lists h2 {
+    font-family: 'tex_gyre_herosbold';
     font-size: 30px;
 }
 
@@ -23,10 +25,14 @@
     }
 
     .Lists h2 {
-        font-size: 25;
+        font-size: 25px;
     }
 
     .Lists p {
         font-size: unset;
+    }
+
+    .Text {
+        padding-bottom: unset;
     }
 }
