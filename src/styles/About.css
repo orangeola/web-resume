@@ -1,0 +1,33 @@
+.About {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.AboutText {
+    max-width: 1000px;
+}
+
+.AboutText > h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.AboutText > p {
+    font-size: 20px;
+    font-family: 'tex_gyre_herosregular';
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1000px){
+    .About {
+        height: unset;
+        padding-bottom: 100px;
+    }
+
+    .AboutText > h1 {
+        font-size: 40px;
+    }
+}

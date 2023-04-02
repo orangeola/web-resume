@@ -12,6 +12,10 @@ function Header() {
         const workScroll = document.getElementsByClassName('Work')[0];
         workScroll.scrollIntoView({behavior: 'smooth'});
         break;
+      case 'about':
+        const aboutScroll = document.getElementsByClassName('About')[0];
+        aboutScroll.scrollIntoView({behavior: 'smooth'});
+        break;
     }
   }
 
@@ -19,8 +23,7 @@ function Header() {
     <div className="Header">
         <p onClick={()=> handleClick('tech')}>technologies</p>
         <p style={{color:'red'}} onClick={() => handleClick('work')}>work</p>
-        <p>about</p>
-        <p style={{color:'red'}}>contact</p>
+        <p onClick={()=> handleClick('about')}>about</p>
     </div>
   );
 }
