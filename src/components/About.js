@@ -9,7 +9,7 @@ function About() {
           Hi, I'm Alexander. After completing my computer science degree, I decided to continue studying other areas of software development before committing to a career. I promptly studied game development for a year, and then full-stack web development.
         </p>
         <p>
-          After these years of study, I feel ready and committed to contribute to meaningful projects with others. As an avid life-long learner, I am excited to begin the next stage of my life and develop myself both professionally and personally while I help build projects greater than myself.
+          After all these years of study, I feel ready and committed to contribute to meaningful projects with others. As an avid life-long learner, I am excited to begin the next stage of my life and develop myself both professionally and personally while I help build projects greater than myself.
         </p>
         <p>
           Outside coding, I enjoy reading (with the occasional bit of writing) along with trips to the cinema. I enjoy playing badminton and tennis, as well as going on hikes out in nature. I have also recently picked up a guitar, and am excited to learn!

@@ -12,14 +12,14 @@ function WorkTab() {
   const ttt = [{
     title: "Blog",
     img: odblogweb,
-    dsc: "A RESTful API Express server that serves two different React front-ends. One is for general users who can view posts and post a comment. The other is a website just for me to make new posts, or delete posts and comments. Utilises a JWT token to verify whether the admin has logged in to make these changes.",
+    dsc: "A RESTful API Express server that serves two different React frontends. One is for general users who can view posts and post a comment. The other is a website just for me to make new posts, or delete posts and comments. Utilises a JWT token to verify whether the admin has logged in to authenticate changes made to the database through the API.",
     git: "https://github.com/orangeola/od-blog-web",
     live: "https://orangeola.github.io/od-blog-web/"
   },
   {
     title: "Sale Spree",
     img: salespree,
-    dsc: "A couch co-op party game made in six months with a team of six using Unity and C#. Race against the clock as you try to fulfill your randomised shopping list while battling other shoppers along the way.",
+    dsc: "A couch co-op party game made in six months with a team of six using Unity and C#. Race against the clock as you try to fulfill your randomised shopping list while competing against other shoppers along the way.",
     link: "https://youtu.be/gTXo4zMmHLU",
     yt: true
   },
@@ -33,7 +33,7 @@ function WorkTab() {
   {
     title: "Members Only",
     img: membersonly,
-    dsc: "Any registered user may make a post here, but only members can see the name of the author. If you know the secret password, you can become a memeber... or even an admin. Utilises passpotjs to handle log in and uses bcryptjs to encrypt passwords in the database. Hosted entirely within Express using pug.",
+    dsc: "Any registered user may make a post here, but only members can see the name of the author. If you know the secret password, you can become a member... or even an admin. Utilises passportjs to handle log in and uses bcryptjs to encrypt passwords in the database. Hosted entirely within Express using pug.",
     git: "https://github.com/orangeola/od-members-only",
     live: "https://od-members-only.orangeola.repl.co"
   },
