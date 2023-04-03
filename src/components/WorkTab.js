@@ -12,7 +12,7 @@ function WorkTab() {
   const ttt = [{
     title: "Blog",
     img: odblogweb,
-    dsc: "A RESTful API Express server that serves two different React frontends. One is for general users who can view posts and post a comment. The other is a website just for me to make new posts, or delete posts and comments. Utilises a JWT token to verify whether the admin has logged in to authenticate changes made to the database through the API.",
+    dsc: "A RESTful API Express server that serves two different React frontends. One is for general users who can view posts and post a comment. The other is a website just for me to make new posts, or delete posts and comments. Utilises a JWT token to verify whether the admin has logged in to authenticate changes made to the database through the API. The backend loads slowly if this website has not been opened in a while, so if nothing shows up give it a little time to load.",
     git: "https://github.com/orangeola/od-blog-web",
     live: "https://orangeola.github.io/od-blog-web/"
   },
